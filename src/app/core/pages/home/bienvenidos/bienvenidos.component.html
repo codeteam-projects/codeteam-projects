@@ -1,0 +1,93 @@
+<div class="cont" style="background-image: url(assets/home2.jpg)">
+  <h1 class="title font-playfair" style="color: white; text-align: center">
+    Services
+  </h1>
+  <div class="container">
+    <div class="card text-center">
+      <figure class="px-10 pt-10">
+        <img src="assets/movimiento-de-camiones.svg" alt="Shoes" class="card_img rounded-xl" />
+      </figure>
+      <div class="card-body items-center">
+        <h2 class="card-title font-montserrat">Mobility</h2>
+        <p>
+          We meet you wherever you are, bringing unique flavors to your location
+        </p>
+      </div>
+    </div>
+
+    <div class="card text-center">
+      <figure class="px-10 pt-10">
+        <img src="assets/restaurante.svg" alt="Shoes" class="card_img rounded-xl" />
+      </figure>
+      <div class="card-body items-center">
+        <h2 class="card-title font-montserrat">Varied Menu</h2>
+        <p>From reinvented classics to innovative creations</p>
+      </div>
+    </div>
+
+    <div class="card text-center">
+      <figure class="px-10 pt-10">
+        <img src="assets/insignia.svg" alt="Shoes" class="card_img rounded-xl" />
+      </figure>
+      <div class="card-body flex items-center">
+        <h2 class="card-title font-montserrat">Premium Quality</h2>
+        <p>Fresh ingredients and high-level culinary techniques.</p>
+      </div>
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="flex flex-col bg-black/40 backdrop-blur items-center rounded-2xl p-2 mb-2">
+    <h3 class="font-opensans text-3xl" style="color: white">Lunch Combo Offer</h3>
+    <div class="platill">
+      <app-platill [short]="true" nombre="Express pasta of your choice" [id]="2"></app-platill>
+      <app-drink [short]="true" [id]="2"></app-drink>
+      <app-platill [short]="true" [id]="17"></app-platill>
+    </div>
+    <h3 class="font-opensans text-3xl" style="color: white">$15.00</h3>
+
+    <p class="font-opensans md:text-3xl text-white underline decoration-dashed sh text-xl">Call and place the order</p>
+    <p style="color: white">239-785-5625</p>
+  </div>
+  <div class="flex flex-col bg-black/40 backdrop-blur items-center rounded-2xl p-2 mb-2">
+    <h3 class="font-opensans text-3xl" style="color: white">Lunch Combo Offer</h3>
+    <div class="platill">
+      <app-platill [short]="true" [id]="6"></app-platill>
+      <app-drink [short]="true" [id]="2"></app-drink>
+      <app-platill [short]="true" [id]="17"></app-platill>
+    </div>
+    <h3 class="font-opensans text-3xl" style="color: white">$16.00</h3>
+
+    <p class="font-opensans md:text-3xl text-white underline decoration-dashed sh text-xl">Call and place the order</p>
+    <p style="color: white">239-785-5625</p>
+  </div>
+  <div class="flex flex-col bg-black/40 backdrop-blur items-center rounded-2xl p-2 mb-2">
+    <h3 class="font-opensans text-3xl" style="color: white">Lunch Combo Offer</h3>
+    <div class="platill">
+      <app-platill [short]="true" nombre="Cheese Burger with Chips" [id]="9"></app-platill>
+      <app-drink [short]="true" [id]="2"></app-drink>
+      <app-platill [short]="true" [id]="17"></app-platill>
+    </div>
+    <h3 class="font-opensans text-3xl" style="color: white">$13.00</h3>
+
+    <p class="font-opensans md:text-3xl text-white underline decoration-dashed sh text-xl">Call and place the order</p>
+    <p style="color: white">239-785-5625</p>
+  </div>
+
+
+  <hr />
+
+  <h1 class="title font-playfair" style="text-align: center; color: white">
+    Popular Food
+  </h1>
+  <div class="platill">
+    <app-platill [id]="0"></app-platill>
+    <app-platill [id]="2"></app-platill>
+    <app-platill [id]="4"></app-platill>
+    <app-platill [id]="13"></app-platill>
+  </div>
+
+
+ 
+</div>
